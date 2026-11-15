@@ -20,9 +20,10 @@ android {
 
     buildTypes {
         release {
+            // R8 full-mode optimisation breaks Kotlin stdlib visibility at runtime
+            // (IllegalAccessError on startup); keep the release build unoptimised.
             optimization {
-                enable = true
-                packageScope = setOf("androidx.**", "kotlin.**", "kotlinx.**")
+                enable = false
             }
         }
     }
