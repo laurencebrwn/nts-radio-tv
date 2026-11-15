@@ -1,6 +1,6 @@
 # NTS Radio for Android TV
 
-NTS Radio on the big screen — NTS 1, NTS 2 and the [Infinite Mixtapes](https://www.nts.live/infinite-mixtapes), built for the remote.
+[NTS Radio](https://www.nts.live/) on the big screen — NTS 1, NTS 2 and the [Infinite Mixtapes](https://www.nts.live/infinite-mixtapes), built for the remote.
 
 ![Live radio](docs/screenshot-live.png)
 
@@ -12,16 +12,7 @@ NTS Radio on the big screen — NTS 1, NTS 2 and the [Infinite Mixtapes](https:/
 - **Infinite Mixtapes** — all 16 music-only streams in a clean artwork grid; the playing tile gets a red dot.
 - **Remote-first** — D-pad navigation, large focus states, OK to play / pause / switch.
 - **Background playback** — audio keeps going from a media session and shows up in Android TV's now playing.
-- **Always fresh** — show metadata refreshes hourly; Univers Light Condensed throughout; no rounded corners.
-
-## Controls
-
-| Key | Action |
-| --- | --- |
-| ◀ / ▶ | Move between channels, or between mixtapes |
-| OK | Play, pause, or switch channel |
-| ▲ | Jump to the LIVE / MIXTAPES tabs |
-| BACK | Leave the app; audio keeps playing |
+- **Always fresh** — show metadata from the NTS show that is currently scheduled.
 
 ## Build
 
