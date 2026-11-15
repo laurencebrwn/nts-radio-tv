@@ -64,14 +64,15 @@
                     android:id="@+id/tab_live"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/bg_tab_selected"
                     android:clickable="true"
                     android:defaultFocusHighlightEnabled="false"
                     android:focusable="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="24dp"
                     android:orientation="vertical"
-                    android:paddingStart="6dp"
-                    android:paddingTop="2dp"
-                    android:paddingEnd="6dp"
-                    android:paddingBottom="2dp">
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp">
 
                     <TextView
                         android:id="@+id/tab_live_label"
@@ -90,8 +91,9 @@
                         android:id="@+id/tab_live_indicator"
                         android:layout_width="match_parent"
                         android:layout_height="2dp"
-                        android:layout_marginTop="5dp"
-                        android:background="@color/white" />
+                        android:layout_marginTop="-1dp"
+                        android:background="@color/white"
+                        android:visibility="invisible" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -99,14 +101,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="18dp"
+                    android:background="@drawable/bg_tab_selected"
                     android:clickable="true"
                     android:defaultFocusHighlightEnabled="false"
                     android:focusable="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="24dp"
                     android:orientation="vertical"
-                    android:paddingStart="6dp"
-                    android:paddingTop="2dp"
-                    android:paddingEnd="6dp"
-                    android:paddingBottom="2dp">
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp">
 
                     <TextView
                         android:id="@+id/tab_mixtapes_label"
@@ -125,8 +128,9 @@
                         android:id="@+id/tab_mixtapes_indicator"
                         android:layout_width="match_parent"
                         android:layout_height="2dp"
-                        android:layout_marginTop="5dp"
-                        android:background="@color/white" />
+                        android:layout_marginTop="-1dp"
+                        android:background="@color/white"
+                        android:visibility="invisible" />
                 </LinearLayout>
             </LinearLayout>
 
