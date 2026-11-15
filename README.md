@@ -20,7 +20,7 @@
 ./gradlew :app:assembleDebug
 ```
 
-Min SDK 24, targets API 37. The signed release APK ships as `nts-radio-tv-v0.1.apk` in the [v0.1 release](../../releases/tag/v0.1).
+Min SDK 24, targets API 37. The signed release APK ships as `nts-radio-tv-v0.2.apk` in the [v0.2 release](../../releases/tag/v0.2).
 
 ---
 
