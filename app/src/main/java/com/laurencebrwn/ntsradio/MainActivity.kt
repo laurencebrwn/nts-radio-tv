@@ -428,15 +428,19 @@ class MainActivity : Activity() {
     }
 
     private fun updateTabs() {
-        tabLive.isSelected = section == Section.LIVE
-        tabMixtapes.isSelected = section == Section.MIXTAPES
-        // Selected tab is fully white; the indicator is only for hovering (focus) on non-selected.
-        tabLiveIndicator.visibility =
-            if (section == Section.LIVE) View.GONE
-            else if (tabLive.hasFocus()) View.VISIBLE else View.INVISIBLE
+        val liveSelected = section == Section.LIVE
+        tabLive.isSelected = liveSelected
+        tabMixtapes.isSelected = !liveSelected
+
+        // The focused tab gets an underline: white on the dark background, or
+        // black when the tab is also selected so it reads inside its white box.
+        tabLiveIndicator.visibility = if (tabLive.hasFocus()) View.VISIBLE else View.INVISIBLE
         tabMixtapesIndicator.visibility =
-            if (section == Section.MIXTAPES) View.GONE
-            else if (tabMixtapes.hasFocus()) View.VISIBLE else View.INVISIBLE
+            if (tabMixtapes.hasFocus()) View.VISIBLE else View.INVISIBLE
+        tabLiveIndicator.setBackgroundColor(
+            ContextCompat.getColor(this, if (liveSelected) R.color.black else R.color.white))
+        tabMixtapesIndicator.setBackgroundColor(
+            ContextCompat.getColor(this, if (liveSelected) R.color.white else R.color.black))
     }
 
     override fun onKeyDown(keyCode: Int, event: KeyEvent): Boolean {
