@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The active section is fully white; a hovered-but-not-selected tab
+         only gets the underline, so the two states never look the same. -->
+    <item android:state_selected="true" android:color="@color/white" />
+    <item android:color="@color/text_tertiary" />
+</selector>

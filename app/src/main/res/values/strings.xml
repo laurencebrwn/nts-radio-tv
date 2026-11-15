@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NTS Radio</string>
+    <string name="radio_word">RADIO</string>
+    <string name="notification_channel_name">Now playing</string>
+    <string name="channel_one">NTS 1</string>
+    <string name="channel_two">NTS 2</string>
+    <string name="nav_live">Live</string>
+    <string name="nav_mixtapes">Mixtapes</string>
+    <string name="mixtapes_loading">Loading mixtapes…</string>
+    <string name="mixtapes_unavailable">Couldn’t load the mixtapes. Check your connection and try again.</string>
+    <string name="mixtape_play_description">%1$s, mixtape. Select to play</string>
+    <string name="mixtape_pause_description">%1$s, mixtape playing. Select to pause</string>
+    <string name="live_radio">Live radio</string>
+    <string name="live_from">Live from %1$s</string>
+    <string name="next_show">UP NEXT   %1$s%2$s</string>
+    <string name="channel_play_description">%1$s, paused. Select to play</string>
+    <string name="channel_pause_description">%1$s, playing. Select to pause</string>
+    <string name="channel_switch_description">%1$s. Select to switch channel</string>
+    <string name="offline_title">Reconnecting…</string>
+    <string name="offline_body">The stream seems to be unavailable. We will keep trying.</string>
+</resources>
