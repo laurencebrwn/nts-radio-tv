@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">NTS Radio</string>
-    <string name="nts_mark">NTS</string>
     <string name="radio_word">RADIO</string>
     <string name="notification_channel_name">Now playing</string>
     <string name="channel_one">NTS 1</string>
