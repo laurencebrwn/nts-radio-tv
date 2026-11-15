@@ -63,12 +63,12 @@
                 <LinearLayout
                     android:id="@+id/tab_live"
                     android:layout_width="wrap_content"
-                    android:layout_height="44dp"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/bg_tab_selected"
                     android:clickable="true"
                     android:defaultFocusHighlightEnabled="false"
                     android:focusable="true"
-                    android:gravity="center_vertical"
+                    android:gravity="center_horizontal"
                     android:orientation="vertical"
                     android:paddingStart="12dp"
                     android:paddingEnd="12dp">
@@ -90,7 +90,7 @@
                         android:id="@+id/tab_live_indicator"
                         android:layout_width="match_parent"
                         android:layout_height="2dp"
-                        android:layout_marginTop="4dp"
+                        android:layout_marginTop="-2dp"
                         android:background="@color/white"
                         android:visibility="invisible" />
                 </LinearLayout>
@@ -98,13 +98,13 @@
                 <LinearLayout
                     android:id="@+id/tab_mixtapes"
                     android:layout_width="wrap_content"
-                    android:layout_height="44dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginStart="18dp"
                     android:background="@drawable/bg_tab_selected"
                     android:clickable="true"
                     android:defaultFocusHighlightEnabled="false"
                     android:focusable="true"
-                    android:gravity="center_vertical"
+                    android:gravity="center_horizontal"
                     android:orientation="vertical"
                     android:paddingStart="12dp"
                     android:paddingEnd="12dp">
@@ -126,7 +126,7 @@
                         android:id="@+id/tab_mixtapes_indicator"
                         android:layout_width="match_parent"
                         android:layout_height="2dp"
-                        android:layout_marginTop="4dp"
+                        android:layout_marginTop="-2dp"
                         android:background="@color/white"
                         android:visibility="invisible" />
                 </LinearLayout>
